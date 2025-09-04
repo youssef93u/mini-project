@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    int i;
 float t1,t2,t3,t4,t5,T,M;
 printf("entre les notes t1,t2,t3,t4,t5 :");
 scanf("%f %f %f %f %f",&t1,&t2,&t3,&t4,&t5);
