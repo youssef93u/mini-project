@@ -12,19 +12,19 @@ M=T/5;
 printf("M=%.2f\n",M);
 
  
-if(T>=90) {
+if(M>=90) {
     printf("excellent");
 }
-else if(T>=80 && T<=89) {
+else if(M>=80 && M<=89) {
     printf("tres bien");
 }
-else if(T>=70 && T<=79) {
+else if(M>=70 && M<=79) {
     printf("bien");
 }
-else if(T>=60 && T<=69) {
+else if(M>=60 && M<=69) {
     printf("passable");
 }
-else if(T<60) {
+else if(M<60) {
     printf("Echec");
 }
 
