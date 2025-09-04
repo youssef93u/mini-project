@@ -28,19 +28,19 @@ M = T/5;
   note_basse = notes[i];  
 }
   printf("la note_basse %f :\n",note_basse);
-if(T>=90) {
+if(M>=90) {
     printf("excellent\n");
 }
-else if(T>=80 && T<=89) {
+else if(M>=80 && M<=89) {
     printf("tres bien\n");
 }
-else if(T>=70 && T<=79) {
+else if(M>=70 && M<=79) {
     printf("bien \n");
 }
-else if(T>=60 && T<=69) {
+else if(M>=60 && M<=69) {
     printf("passable \n");
 }
-else if(T<60) {
+else if(M<60) {
     printf("Echec \n");
 }
 
