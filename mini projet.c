@@ -9,20 +9,7 @@ T=t1+t2+t3+t4+t5;
 printf("T=%.2f\n",T);
 M=T/5;
 printf("M=%.2f\n",M);
-double note_haute=t1;
-if(t2>t1)
-if(t3>t2)
-if(t4>t3)
-if(t5>t4)
-printf(" afficher la note haute",note_haute);
 
-double note_basse=t1;
-if(t2<t1)
-if(t3<t2)
-if(t4<t3)
-if(t5<t4)
-note_haute=t5;
- printf("note_basse\n",note_basse);
 if(M>=90) {
     printf("excellent\n");
 }
